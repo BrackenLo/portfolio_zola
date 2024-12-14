@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+
+{% block content %}
+<h1 class="title">
+  This is my site made with Zola.
+</h1>
+
+<h2>Rust Projects</h2>
+{{ macros::projects_grid(tag = "Rust") }}
+
+<h2>Unreal</h2>
+{{ macros::projects_grid(tag = "Unreal") }}
+
+<h2>Godot</h2>
+{{ macros::projects_grid(tag = "Godot") }}
+
+{% endblock content %}

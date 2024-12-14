@@ -1,0 +1,15 @@
+{% if page.extra.img %}
+  {% set image_path = page.extra.img %}
+{% else %}
+  {% set image_path = "default.png" %}
+{% endif %}
+
+{% set image = resize_image(path=image_path, width=400, height=400, op="fill") %}
+
+
+
+<li>
+  <a href="{{ page.permalink | safe }}">
+    <img width=400 height=400 src="{{ image.url }}" alt="{{ page.title }}"/>
+  </a>
+</li>

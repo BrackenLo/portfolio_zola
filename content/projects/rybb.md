@@ -2,5 +2,5 @@
 title = "Godot stuff"
 
 [taxonomies]
-tags = ["Godot", "C#"]
+tags = ["Godot", "CSharp"]
 +++

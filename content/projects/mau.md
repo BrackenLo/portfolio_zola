@@ -2,5 +2,5 @@
 title = "Mau"
 
 [taxonomies]
-tags = ["Unreal", "C++", "Team Project", "University"]
+tags = ["Unreal", "CPP", "Team Project", "University"]
 +++

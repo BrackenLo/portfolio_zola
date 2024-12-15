@@ -2,5 +2,5 @@
 title = "Celestelike Raylib"
 
 [taxonomies]
-tags = ["Raylib", "C++"]
+tags = ["Raylib", "CPP"]
 +++

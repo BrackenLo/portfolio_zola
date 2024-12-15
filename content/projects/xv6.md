@@ -2,5 +2,5 @@
 title = "XV6 Assessment"
 
 [taxonomies]
-tags = ["Linux", "C++", "Graphics", "University"]
+tags = ["Linux", "CPP", "Graphics", "University"]
 +++

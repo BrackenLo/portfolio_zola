@@ -1,19 +1,16 @@
 {% extends "base.html" %}
 
 {% block content %}
-    {% block header %}
-    {% endblock header %}
+  {% block header %}
+  {% endblock header %}
 
-    <h1>{{ term.name }}</h1>
+  <h1>{{ term.name }}</h1>
 
+  <div class="tile_area">
     {% for page in term.pages %}
-
-    <header>
-        <h2>
-            <a href="{{ page.permalink | safe }}">{{ page.title }}</a>
-        </h2>
-    </header>
-        {{ page.summary | safe }}
-    
+      {% include "tile.html" %}
+      {{ page.summary | safe }}
     {% endfor %}
+  </div>
+
 {% endblock content %}

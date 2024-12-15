@@ -3,6 +3,9 @@ title = "Abyss Boss Drop"
 
 [taxonomies]
 tags = ["C#", "Game Jam"]
+
+[extra]
+img = "abyss_boss.png"
 +++
 
 

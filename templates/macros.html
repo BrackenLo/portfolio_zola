@@ -1,9 +1,10 @@
 {% macro projects_grid(tag) %}
-
   {% set categories = get_taxonomy_term(kind="tags", term=tag) %}
 
-  {% for page in categories.pages %}
-    {% include "tile.html" %}
-  {% endfor %}
+  <div class="tile_area">
+    {% for page in categories.pages %}
+      {% include "tile.html" %}
+    {% endfor %}
+  </div>
 
 {% endmacro projects_grid %}

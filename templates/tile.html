@@ -6,10 +6,9 @@
 
 {% set image = resize_image(path=image_path, width=400, height=400, op="fill") %}
 
-
-
-<li>
+<div class="tile">
   <a href="{{ page.permalink | safe }}">
+    <h3>{{ page.title }}</h3>
     <img width=400 height=400 src="{{ image.url }}" alt="{{ page.title }}"/>
   </a>
-</li>
+</div>

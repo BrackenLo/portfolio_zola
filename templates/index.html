@@ -2,17 +2,31 @@
 {% import "macros.html" as macros %}
 
 {% block content %}
-<h1 class="title">
-  This is my site made with Zola.
-</h1>
 
-<h2>Rust Projects</h2>
-{{ macros::projects_grid(tag = "Rust") }}
+<div class="intro_block">
+  <h1>A portfolio site</h1>
+  <p>
+    I am a recent graduate from Derby University with a 2:1 in Computer Games Programming. 
+    Although the university taught me to use the Unreal Engine and C++, I have a hands-on 
+    approach to learning and have taught myself to use other game engines and other 
+    programming languages. This portfolio includes examples written across languages such 
+    as Rust, C#, C++ and GDScript and engines such as Unreal, Godot, Unity and Bevy.
+  </p>
+</div>
 
-<h2>Unreal</h2>
-{{ macros::projects_grid(tag = "Unreal") }}
+<div class="tiles_block">
+  <h2>Unreal</h2>
+  {{ macros::projects_grid(tag = "Unreal") }}
+</div>
 
-<h2>Godot</h2>
-{{ macros::projects_grid(tag = "Godot") }}
+<div class="tiles_block">
+  <h2>Rust Projects</h2>
+  {{ macros::projects_grid(tag = "Rust") }}
+</div>
+
+<div class="tiles_block">
+  <h2>Godot</h2>
+  {{ macros::projects_grid(tag = "Godot") }}
+</div>
 
 {% endblock content %}

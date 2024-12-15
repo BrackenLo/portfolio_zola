@@ -2,14 +2,19 @@
 {% import "macros.html" as macros %}
 
 {% block content %}
-<h1 class="title">
-  {{ section.title }}
-</h1>
 
-<div class="tile_area">
-  {% for page in section.pages %}
-    {% include "tile.html" %}
-  {% endfor %}
-<div>
+  <div class="intro_block">
+    <h1 class="title">
+      {{ section.title }}
+    </h1>
+  </div>
+
+  <div class="tiles_block">
+    <div class="tile_area">
+      {% for page in section.pages %}
+        {% include "tile.html" %}
+      {% endfor %}
+    <div>
+  </div>
 
 {% endblock content %}

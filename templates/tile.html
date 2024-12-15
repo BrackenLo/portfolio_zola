@@ -8,7 +8,9 @@
 
 <div class="tile">
   <a href="{{ page.permalink | safe }}">
-    <h3>{{ page.title }}</h3>
-    <img width=400 height=400 src="{{ image.url }}" alt="{{ page.title }}"/>
+    <figure>
+      <img width=400 height=400 src="{{ image.url }}" alt="{{ page.title }}"/>
+      <figcaption>{{ page.title }}</figcaption>
+    </figure>
   </a>
 </div>

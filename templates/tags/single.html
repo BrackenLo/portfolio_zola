@@ -4,7 +4,9 @@
   {% block header %}
   {% endblock header %}
 
-  <h1>{{ term.name }}</h1>
+  <div class="intro_block">
+    <h1>{{ term.name }}</h1>
+  </div>
 
   <div class="tile_area">
     {% for page in term.pages %}

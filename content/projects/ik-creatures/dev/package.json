@@ -1,0 +1,15 @@
+{
+  "name": "ik_creatures_v2",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "ik_creatures_v2_bg.wasm",
+    "ik_creatures_v2.js",
+    "ik_creatures_v2.d.ts"
+  ],
+  "main": "ik_creatures_v2.js",
+  "types": "ik_creatures_v2.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

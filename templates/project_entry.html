@@ -1,9 +1,42 @@
 {% extends "base.html" %}
+{% import "macros.html" as macros %}
 
 {% block content %}
-<h1 class="title">
-  {{ page.title }}
-</h1>
-<p class="subtitle"><strong>{{ page.date }}</strong></p>
-{{ page.content | safe }}
+  <hr>
+  <div class="title_block">
+    {% if page.extra.img %}
+      <img class="title_image" src ="{{ macros::get_img(path=page.extra.img) }}"/>
+    {% elif page.extra.img_static %}
+      <img class="title_image" src ="{{ macros::get_img(path=page.extra.img_static, static=true) }}"/>
+    {% endif %}
+
+    <div class="title_content">
+      <h1 class="title">
+        {{ page.title }}
+      </h1>
+      <p class="subtitle"><strong>{{ page.date }}</strong></p>
+  
+      <div class="nav_links">
+        {% set taxonomy = get_taxonomy(kind="tags") %}
+  
+        {% for term_name in page.taxonomies["tags"] %}
+          {% for term in taxonomy.items %}
+          
+            {% if term.name == term_name %}
+              <a class="button" href = "{{ config.base_url }}/tags/{{ term.slug }}">{{ term.name }}</a>
+              {% break %}
+            {% endif %}
+            
+          {% endfor %}    
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  
+  <div class="content_block">
+    {{ page.content | safe }}
+  </div>
+
 {% endblock content %}

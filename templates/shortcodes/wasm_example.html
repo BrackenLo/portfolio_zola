@@ -1,0 +1,42 @@
+<div class="wasm_example" id="{{ div_id }}">
+    {%- if static %}
+        {%- set src_path = src %}
+    {%- else %}
+        {%- set src_path = page.path ~ src %}
+    {%- endif  %}
+
+    <button id="{{ div_id }}_button" class="button">Run Example</button>
+
+    <script type="module">
+        import init from "{{ get_url(path=src_path) }}";
+
+        var btn_name = "{{ div_id }}_button";        
+        var btn = document.getElementById(btn_name);
+
+        document.getElementById(btn_name).onclick = function() {
+            btn.remove();
+
+            init().then(() => {
+                console.log("WASM Loaded");
+            });
+            
+            /*init().then(
+                () => {
+                    console.log("WASM Loaded");
+                }, 
+                () => {
+                    console.log("Failed to run example");
+
+                    var container = document.getElementById("{{ div_id }}");
+                    container.lastElementChild.remove();
+
+                    const warning = document.createTextNode("Failed to run example. Is your browser compatible?");
+                    container.appendChild(warning);
+                }
+            );*/
+        };
+        
+    </script>
+
+</div>
+

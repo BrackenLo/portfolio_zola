@@ -5,5 +5,5 @@ title = "Abyss Boss Drop"
 tags = ["CSharp", "Game Jam", "Raylib"]
 
 [extra]
-img = "abyss_boss.png"
+img = "tile.png"
 +++

@@ -8,3 +8,19 @@
   </div>
 
 {% endmacro projects_grid %}
+
+{% macro get_img(path, static=false) %}
+  {% if static %}
+    {% set image_path = path %}
+  {% else %}
+    {% set image_path = page.path ~ path %}
+  {% endif %}
+
+  {% set meta = get_image_metadata(path=image_path) %}
+  {% if meta.format != "gif" %}
+    {% set image = resize_image(path=image_path, width=250, height=250, op="fill") %}
+    {% set image_path = image.url %}
+  {% endif %}
+
+  {{ image_path }}
+{% endmacro get_img %}

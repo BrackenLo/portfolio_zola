@@ -1,15 +1,21 @@
 {% if page.extra.img %}
-  {% set image_path = page.extra.img %}
+  {% set image_path = page.path ~ page.extra.img %}
+{% elif page.extra.img_static  %}
+  {% set image_path = page.extra.img_static %}
 {% else %}
   {% set image_path = "default.png" %}
 {% endif %}
 
-{% set image = resize_image(path=image_path, width=400, height=400, op="fill") %}
+{% set meta = get_image_metadata(path=image_path) %}
+{% if meta.format != "gif" %}
+  {% set image = resize_image(path=image_path, width=250, height=250, op="fill") %}
+  {% set image_path = image.url %}
+{% endif %}
 
 <div class="tile">
   <a href="{{ page.permalink | safe }}">
     <figure>
-      <img width=400 height=400 src="{{ image.url }}" alt="{{ page.title }}"/>
+      <img width=200 height=200 src="{{ image_path }}" alt="{{ page.title }}"/>
       <figcaption>{{ page.title }}</figcaption>
     </figure>
   </a>

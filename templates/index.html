@@ -3,6 +3,8 @@
 
 {% block content %}
 
+<hr>
+
 <div class="intro_block">
   <h1>A portfolio site</h1>
   <p>
@@ -12,6 +14,13 @@
     programming languages. This portfolio includes examples written across languages such 
     as Rust, C#, C++ and GDScript and engines such as Unreal, Godot, Unity and Bevy.
   </p>
+</div>
+
+<hr>
+
+<div class="tiles_block">
+  <h2>Featured</h2>
+  {{ macros::projects_grid(tag = "Featured") }}
 </div>
 
 <div class="tiles_block">

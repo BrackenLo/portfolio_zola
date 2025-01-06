@@ -1,3 +1,5 @@
+@import "theme";
+
 .tile_area {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -19,7 +21,7 @@
 }
 
 .tile {
-  background-color: #161819;
+  background-color: $bg-color-primary;
   padding: 0;
   margin: 2px;
 }
@@ -42,6 +44,11 @@
   caption-side: bottom;
   text-align: center;
   font-size: 1em;
+}
+
+.tile figcaption:nth-child(3) {
+  font-size: 0.6em;
+  color: gray;
 }
 
 .tile:hover {

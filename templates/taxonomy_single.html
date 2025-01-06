@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {% block header %}
+  {% endblock header %}
+
+  <div class="intro_block">
+    <h1>{{ term.name }}</h1>
+  </div>
+
+  <div class="tile_area">
+    {% for page in term.pages %}
+      {% include "tile.html" %}
+      {{ page.summary | safe }}
+    {% endfor %}
+  </div>
+
+{% endblock content %}
+

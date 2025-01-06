@@ -17,6 +17,10 @@
     <figure>
       <img width=200 height=200 src="{{ image_path }}" alt="{{ page.title }}"/>
       <figcaption>{{ page.title }}</figcaption>
+      {% if page.extra.date %}
+        <figcaption class="date">{{ page.extra.date }}</figcaption>
+      {% endif %}
+      
     </figure>
   </a>
 </div>

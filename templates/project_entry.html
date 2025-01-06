@@ -14,7 +14,9 @@
       <h1 class="title">
         {{ page.title }}
       </h1>
-      <p class="subtitle"><strong>{{ page.date }}</strong></p>
+      {% if page.extra.date %}
+        <p class="subtitle"><strong>{{ page.extra.date }}</strong></p>
+      {% endif %}
   
       <div class="nav_links">
         {% set taxonomy = get_taxonomy(kind="tags") %}

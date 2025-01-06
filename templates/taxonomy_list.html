@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+{% import "macros.html" as macros %}
+
+{% block content %}
+  {% block header %}
+  {% endblock header %}
+
+
+  <div class="intro_block">
+    <h1>Tags</h1>
+
+    <div class="nav_links">
+      {% if terms %}
+        {% for term in terms %}
+          <a class="button" href = "{{ current_url }}#{{ term.slug }}">{{ term.name }}</a>
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+
+  {% if terms %}
+    {% for term in terms %}
+      <hr>
+      <div class="tiles_block">
+
+        <h3 id="{{ term.slug }}">
+          <a href="{{ term.permalink | safe }}">{{ term.name }}</a> 
+          ({{ term.pages | length }})
+        </h3>
+
+        {{ macros::projects_grid(tag = term.name) }}
+        
+      </div>
+    {% endfor %}
+  {% endif %}
+{% endblock content %}
+

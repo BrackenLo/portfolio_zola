@@ -1,11 +1,10 @@
 title = "Portfolio"
-base_url = "127.0.0.1:1111"
+base_url = "https://brackenlo.github.io"
 
 compile_sass = true
 build_search_index = false
 
 taxonomies = [{ name = "tags", feed = false }]
-
 
 [markdown]
 highlight_code = true

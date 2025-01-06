@@ -5,5 +5,10 @@ title = "Godot Baby Game"
 tags = ["Godot", "GDScript", "Game Jam", "University"]
 
 [extra]
+date = "2023"
 img = "tile.png"
 +++
+
+<br><br>
+
+## TODO (Sorry)

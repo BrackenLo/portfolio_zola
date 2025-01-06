@@ -1,0 +1,15 @@
+{
+  "name": "hecs_game",
+  "type": "module",
+  "version": "0.1.0",
+  "files": [
+    "hecs_game_bg.wasm",
+    "hecs_game.js",
+    "hecs_game.d.ts"
+  ],
+  "main": "hecs_game.js",
+  "types": "hecs_game.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}

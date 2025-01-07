@@ -22,15 +22,15 @@ Press space to toggle between scenes. Uses the mouse. Press 1 to toggle nodes an
 
 This demo may not work, or have missing features on certain browsers. This example is not compatible with touch screen devices.
 
-<br><br><br>
 
-## The making of this project or something
-
-I started working on this project after seeing this video on youtube:
-
-{{ youtube(id="qlfh_rv6khY", autoplay=false) }}
 
 
 ## Dependencies
 
 This project uses my [Roots graphics library](@/projects/roots/index.md)
+
+## Project Inspiration
+
+I started working on this project after seeing this video on youtube:
+
+{{ youtube(id="qlfh_rv6khY", autoplay=false) }}

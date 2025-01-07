@@ -11,7 +11,10 @@ img = "tile.png"
 
 [Find the code here](https://github.com/BrackenLo/image_manager_v2)
 
-<img src = "example.gif" />
+<figure>
+  <img src = "example.gif" />
+  <figcaption>Silly Gifs? What year is it?</figcaption>
+</figure>
 
 <br><br>
 

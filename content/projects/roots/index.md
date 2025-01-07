@@ -2,7 +2,7 @@
 title = "Roots - Game Engine"
 
 [taxonomies]
-tags = ["Rust", "Wgpu", "Graphics", "Featured"]
+tags = ["Rust", "Wgpu", "Graphics", "Featured", "Web"]
 
 [extra]
 date = "2021 - 2024"

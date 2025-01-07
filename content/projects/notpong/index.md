@@ -6,6 +6,7 @@ tags = ["Rust", "Wgpu", "Graphics"]
 
 [extra]
 date = "2022"
+img = "icon.png"
 +++
 
 [Find the code here](https://github.com/BrackenLo/not_pong)

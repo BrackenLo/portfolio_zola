@@ -17,7 +17,20 @@ operating system written in a C. It has no standard library and as such, doesn't
 as boolians, floating points, strings, etc.
 
 This is an assessment I thouroughly enjoyed and scored 100/100 marks in however, as an assessment piece, I won't be 
-releasing the full code but will provide some of my accompanying written log.
+releasing the full code but will provide some of my accompanying written log (full log for now (the most interesting 
+stuff is towards the end) ).
+
+<br>
+
+<object data="Log.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="Log.pdf">
+        <p>This browser does not support PDFs. Find the link here: <a href="Log.pdf">PDF LINK</a>.</p>
+    </embed>
+</object>
+
+<br>
+
+I know the tags say this is C++ and this is only C but this is the only C project so I'd rather include it.
 
 <br><br>
 

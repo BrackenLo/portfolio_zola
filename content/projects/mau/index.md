@@ -9,6 +9,8 @@ date = "2024"
 img = "logo.png"
 +++
 
+gameplay and editor footage + code snippets coming soon
+
 # Introduction
 
 Mau was our Derby University final year group project, spanning the second half of the academic year.

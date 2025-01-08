@@ -59,3 +59,10 @@ header {
 .button:hover {
   background-color: $button-color-secondary;
 }
+
+.collapsible {
+  width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -66,50 +66,50 @@ which has altered line spacing, bracket placement, pointer and reference placeme
 <br>
 
 {{ collapsible(text='Toggle "ai_director_gamemode.h') }}
-{{ embed_code_block(language="c++", path="content/projects/mau/ai_director_gamemode.h") }}
+{{ embed_code_block(language="c++", path="content/projects/mau/code/ai_director_gamemode.h") }}
 
 {{ collapsible(text='Toggle "ai_director_gamemode.cpp') }}
-{{ embed_code_block(language="c++", path="content/projects/mau/ai_director_gamemode.cpp") }}
+{{ embed_code_block(language="c++", path="content/projects/mau/code/ai_director_gamemode.cpp") }}
 
 <br>
 
 {{ collapsible(text='Toggle "ai_director_resources.h') }}
-{{ embed_code_block(language="c++", path="content/projects/mau/ai_director_resources.h") }}
+{{ embed_code_block(language="c++", path="content/projects/mau/code/ai_director_resources.h") }}
 
 {{ collapsible(text='Toggle "ai_director_resources.cpp') }}
-{{ embed_code_block(language="c++", path="content/projects/mau/ai_director_resources.cpp") }}
+{{ embed_code_block(language="c++", path="content/projects/mau/code/ai_director_resources.cpp") }}
 
 <br>
 
 {{ collapsible(text='Toggle "ai_enemy_base_controller.h') }}
-{{ embed_code_block(language="c++", path="content/projects/mau/ai_enemy_base_controller.h") }}
+{{ embed_code_block(language="c++", path="content/projects/mau/code/ai_enemy_base_controller.h") }}
 
 {{ collapsible(text='Toggle "ai_enemy_base_controller.cpp') }}
-{{ embed_code_block(language="c++", path="content/projects/mau/ai_enemy_base_controller.cpp") }}
+{{ embed_code_block(language="c++", path="content/projects/mau/code/ai_enemy_base_controller.cpp") }}
 
 <br>
 
 {{ collapsible(text='Toggle "enemy_base_character.h') }}
-{{ embed_code_block(language="c++", path="content/projects/mau/enemy_base_character.h") }}
+{{ embed_code_block(language="c++", path="content/projects/mau/code/enemy_base_character.h") }}
 
 {{ collapsible(text='Toggle "enemy_base_character.cpp') }}
-{{ embed_code_block(language="c++", path="content/projects/mau/enemy_base_character.cpp") }}
+{{ embed_code_block(language="c++", path="content/projects/mau/code/enemy_base_character.cpp") }}
 
 <br>
 
 {{ collapsible(text='Toggle "enemy_base.h') }}
-{{ embed_code_block(language="c++", path="content/projects/mau/enemy_base.h") }}
+{{ embed_code_block(language="c++", path="content/projects/mau/code/enemy_base.h") }}
 
 <br>
 
 {{ collapsible(text='Toggle "game_teams.h') }}
-{{ embed_code_block(language="c++", path="content/projects/mau/game_teams.h") }}
+{{ embed_code_block(language="c++", path="content/projects/mau/code/game_teams.h") }}
 
 {{ collapsible(text='Toggle "team_project_settings.h') }}
-{{ embed_code_block(language="c++", path="content/projects/mau/team_project_settings.h") }}
+{{ embed_code_block(language="c++", path="content/projects/mau/code/team_project_settings.h") }}
 
 {{ collapsible(text='Toggle "team_project_settings.cpp') }}
-{{ embed_code_block(language="c++", path="content/projects/mau/team_project_settings.cpp") }}
+{{ embed_code_block(language="c++", path="content/projects/mau/code/team_project_settings.cpp") }}
 
 
 <br>
@@ -118,16 +118,16 @@ Some of this code was written in a seperate editor module which added debugging 
 editor.
 
 {{ collapsible(text='Toggle "patrol_component.h') }}
-{{ embed_code_block(language="c++", path="content/projects/mau/patrol_component.h") }}
+{{ embed_code_block(language="c++", path="content/projects/mau/code/patrol_component.h") }}
 
 {{ collapsible(text='Toggle "patrol_component.cpp') }}
-{{ embed_code_block(language="c++", path="content/projects/mau/patrol_component.cpp") }}
+{{ embed_code_block(language="c++", path="content/projects/mau/code/patrol_component.cpp") }}
 
 {{ collapsible(text='Toggle "patrol_visualizer.h') }}
-{{ embed_code_block(language="c++", path="content/projects/mau/patrol_visualizer.h") }}
+{{ embed_code_block(language="c++", path="content/projects/mau/code/patrol_visualizer.h") }}
 
 {{ collapsible(text='Toggle "patrol_visualizer.cpp') }}
-{{ embed_code_block(language="c++", path="content/projects/mau/patrol_visualizer.cpp") }}
+{{ embed_code_block(language="c++", path="content/projects/mau/code/patrol_visualizer.cpp") }}
 
 
 #### Boss prototype

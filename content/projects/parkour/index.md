@@ -5,7 +5,8 @@ title = "Unity Parkour Game"
 tags = ["Unity", "CSharp", "Team Project", "University"]
 
 [extra]
-date = "2019"
+img = "icon.png"
+date = "2021"
 
 +++
 

@@ -3,7 +3,7 @@ title = "Hecs Game/Demo + Engine"
 template = "project_entry.html"
 
 [taxonomies]
-tags = ["Rust", "Wgpu", "Graphics", "Physics", "Featured", "Web"]
+tags = ["Rust", "Wgpu", "Graphics", "Physics", "Web"]
 
 [extra]
 date = "2024"

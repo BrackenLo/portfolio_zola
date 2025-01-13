@@ -97,10 +97,3 @@ tile.html
 
 <br>
 
-### No thumbnail available
-
-If you're confused by seeing this image around the site, it's the default image I've been using as 
-placeholder until I can properly fill out a page.
-
-<img src = "/default.png">
-

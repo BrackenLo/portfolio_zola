@@ -50,6 +50,26 @@ Please note that the latest commit for some of these repos may not be in working
 
 <br>
 
+#### Some gifs of stuff from cabat (just not implemented with roots yet)
+
+<img src = "model_lighting.gif" />
+
+<figure>
+  <img src = "text3d.gif" />
+  <figcaption>Text rendering inspired by the Glyphon crate (just with a focus on 3d)</figcaption>
+</figure>
+
+<figure>
+  <img src = "texture3d.gif" />
+</figure>
+
+#### A gif of stuff from feathered
+
+<figure>
+  <img src = "turnbased.gif" />
+  <figcaption>Creating a turn based game has been on my todo list for a long time. Doing it in 3d is a tempting but difficult prospect.</figcaption>
+</figure>
+
 ## The Rust Langauge - Why Rust?
 
 I have a love/hate relationship with the Rust language. It's a really nice language to write in. It's really easy to setup
